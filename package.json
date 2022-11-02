@@ -45,5 +45,6 @@
   },
   "peerDependencies": {
     "styled-components": ">= 5"
-  }
+  },
+  "repository": "github:prismosoft/react-easy-animations-playground"
 }
