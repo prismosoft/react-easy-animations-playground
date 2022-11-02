@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run linkall && webpack",
     "start": "npm run linkall && webpack-dev-server --open",
+    "build": "npm run unlinkall && webpack",
     "deploy": "npm run build && gh-pages -d dist",
     "linkall": "npm link react-easy-animations react react-dom",
     "unlinkall": "npm unlink --no-save react-easy-animations react react-dom && npm i react-easy-animations react react-dom"
