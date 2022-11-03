@@ -32,10 +32,10 @@ class App extends React.Component {
                     <Header/>
 
                     <Switch>
-                        <Route exact path="/react-easy-animations/">
+                        <Route exact path="/react-easy-animations-playground/">
                             <Playground/>
                         </Route>
-                        <Route path="/react-easy-animations/example">
+                        <Route path="/react-easy-animations-playground/example">
                             <ExamplePage/>
                         </Route>
                     </Switch>

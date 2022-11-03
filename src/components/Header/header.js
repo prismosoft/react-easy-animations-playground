@@ -17,7 +17,7 @@ const Header = () => {
         />
       </ForkRibbon>
       <StyledH1>
-        <StyledLink color="#ffffff" noTransition={true} to="/react-easy-animations/">
+        <StyledLink color="#ffffff" noTransition={true} to="/react-easy-animations-playground/">
           React-Easy-Animations
         </StyledLink>
       </StyledH1>
